@@ -80,6 +80,8 @@ footer {
 
 <header>
   	<h2>Amazon</h2>
+    <div class="contenedor"><img src="risa.jpg" class="mi-imagen">
+    </div>
 </header>
 
 <section>
@@ -90,27 +92,64 @@ footer {
     <a href="" style="color: gold">Tecnologia</a>
   </nav>
   <article style="text-align: center;">
-    <form action="/procesar-pago" method="POST">
-            <label for="nombre">Nombre Completo:</label>
+    
+    <form action="" method="POST">
+            <label for="nombre">Nombre de usuario:</label>
             <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez"> <br>
 
-            <label for="email">Correo Electrónico:</label>
+            <label for="email">Correo electrónico:</label>
             <input type="email" id="email" name="email" required placeholder="tu@correo.com"><br>
 
-            <label for="direccion">Dirección de Envío:</label>
+            <label for="direccion">Domicilio:</label>
             <input type="text" id="direccion" name="direccion" required placeholder="Calle, Número, Ciudad, Código Postal"><br>
 
-            <label for="metodo_pago">Método de Pago:</label>
-            <select id="metodo_pago" name="metodo_pago" required>
-                <option value="">Selecciona un método de pago...</option>
-                <option value="tarjeta">Tarjeta de Crédito / Débito</option>
-                <option value="paypal">PayPal</option>
-                <option value="transferencia">Transferencia Bancaria</option>
+            <label for="contraseña">Contraseña:</label>
+            <input type="text" id="contraseña" name="contraseña"> <br>
+
+            <label for="confirmar">Confirmar contraseña:</label>
+            <input type="text" id="confirmar" name="confirmar"> <br>
+
+            <label for="region">Estado:</label>
+            <select id="region" name="region" required>
+              <option value="">Selecciona el estado donde vives... </option>
+              <option value="1">Aguascalientes</option> 
+              <option value="2">Baja california</option>
+              <option value="3">Baja california sur</option>
+              <option value="4">Campeche</option>
+              <option value="5">Chiapas</option>
+              <option value="6">Chihuahua</option>
+              <option value="7">Ciudad de mexico</option>
+              <option value="8">Coahuila</option>
+              <option value="9">Colima</option> 
+              <option value="10">Durango</option>
+              <option value="11">Guanajuato</option>
+              <option value="12">Guerrero</option>
+              <option value="13">Hidalgo</option>
+              <option value="14">Jalisco</option>
+              <option value="15">Estado de mexico</option>
+              <option value="16">Michoacan</option>
+              <option value="17">Morelos</option> 
+              <option value="18">Nayarit</option>
+              <option value="19">Nuevo leon</option>
+              <option value="20">Oaxaca</option>
+              <option value="21">Puebla</option>
+              <option value="22">Queretaro</option>
+              <option value="23">Quintana roo</option>
+              <option value="24">San lius potosi</option>
+              <option value="25">Sinaloa</option> 
+              <option value="26">Sonora</option>
+              <option value="27">Tabasco</option>
+              <option value="28">Tamaulipas</option>
+              <option value="29">Tlaxcala</option>
+              <option value="30">Veracruz</option>
+              <option value="31">Yucatan</option>
+              <option value="32">Zacatecas</option>
             </select><br>
 
-            <button type="submit">Confirmar Pedido y Pagar</button>
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar">
         </form><br>
-	</div>
+        <img src="amazon.jpg" class="mi-imagen">
 
   </article>
 </section>
